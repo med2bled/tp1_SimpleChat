@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/med2bled/tp1_SimpleChat/issues"
   },
-  "homepage": "https://github.com/med2bled/tp1_SimpleChat#readme"
+  "homepage": "https://github.com/med2bled/tp1_SimpleChat#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
