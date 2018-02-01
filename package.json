@@ -1,0 +1,19 @@
+{
+  "name": "tp1_chatexemple",
+  "version": "1.0.0",
+  "description": "simple chat app using socket.io ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/med2bled/tp1_SimpleChat.git"
+  },
+  "author": "med",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/med2bled/tp1_SimpleChat/issues"
+  },
+  "homepage": "https://github.com/med2bled/tp1_SimpleChat#readme"
+}
