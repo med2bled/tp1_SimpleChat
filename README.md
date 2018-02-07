@@ -1,4 +1,7 @@
 # tp1_SimpleChat
+edit the config/config.json
+
+
 run
 ```
 $ npm install
