@@ -4,6 +4,7 @@ const bodyParser=require('body-parser');
 const http=require('http').Server(app);
 const io=require('socket.io')(http);
 var Message=require('./model/Message');
+
 var Mongoose=require('mongoose');
 var config=require('./config');
 Mongoose.connect(config.getConnectionString(),{useMongoClient:true});
@@ -12,6 +13,7 @@ Mongoose.connect(config.getConnectionString(),{useMongoClient:true});
 
 
 var userscount=0;
+var users=[];
 app.use('/static',express.static(__dirname+'/public'));
 app.set('view engine','ejs');
 io.on('connection', function(socket){
